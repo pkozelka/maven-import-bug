@@ -25,10 +25,16 @@
                 <artifactId>csd-core</artifactId>
                 <version>5-SNAPSHOT</version>
             </dependency>
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>trl-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
     <modules>
+        <module>trl-core</module>
         <module>trl-war</module>
     </modules>
 </project>

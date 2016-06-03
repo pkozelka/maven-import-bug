@@ -24,7 +24,7 @@
         </dependency>
         <dependency>
             <groupId>com.example</groupId>
-            <artifactId>csd-core</artifactId>
+            <artifactId>trl-core</artifactId>
         </dependency>
     </dependencies>
     <build>
